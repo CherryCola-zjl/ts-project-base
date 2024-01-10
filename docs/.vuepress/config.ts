@@ -7,8 +7,6 @@ export default defineUserConfig({
   title: packageJson.name,
   description: packageJson.description,
 
-  base:'/typescript-sdk-starter/',
-  
   // 主题和它的配置
   theme: defaultTheme({
     navbar:[
