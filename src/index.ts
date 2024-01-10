@@ -5,14 +5,16 @@ interface ConfigOptions {
 class libraryStarter {
   id: number;
 
+  url: string;
+
   constructor(options: ConfigOptions) {
     this.id = 11;
     this.url = options.url;
-    console.log('constructor-id-url', options.id, options.url, 123123);
   }
+  /* eslint-disable class-methods-use-this */
 
   say() {
-    console.log(this.id);
+    return 'hello';
   }
 }
 
