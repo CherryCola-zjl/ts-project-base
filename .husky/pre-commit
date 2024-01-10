@@ -1,4 +1,8 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npm run lint
+# 全量检测
+# npm run lint
+
+# 只检测暂存区
+npx lint-staged
