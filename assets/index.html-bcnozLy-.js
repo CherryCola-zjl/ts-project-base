@@ -1,1 +1,0 @@
-import{_ as a,o as t,c as n,a as e,b as c}from"./app-ynrrdxSg.js";const o={},s=e("h1",{id:"api文档",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#api文档","aria-hidden":"true"},"#"),c(" API文档")],-1),i=e("ul",null,[e("li",null,"更新文档api文档")],-1),r=[s,i];function _(d,l){return t(),n("div",null,r)}const u=a(o,[["render",_],["__file","index.html.vue"]]);export{u as default};
