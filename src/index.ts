@@ -7,6 +7,7 @@ class libraryStarter {
 
   constructor(options: ConfigOptions) {
     this.id = 11;
+    this.url = options.url;
     console.log('constructor-id-url', options.id, options.url, 123123);
   }
 

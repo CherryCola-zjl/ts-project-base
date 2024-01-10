@@ -8,7 +8,7 @@
     "build": "npm run lint && rimraf dist types && cross-env NODE_ENV=production webpack --config ./scripts/webpack.prod.js",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "lint": "eslint \"src/**/*.{ts,tsx}\""
+    "lint": "eslint \"src/**/*.{ts,js,tsx}\""
   },
   "keywords": [],
   "author": "",
@@ -20,7 +20,7 @@
   },
   "lint-staged": {
     "*.{ts,js}": [
-      "eslint \"src/**/*.{ts,tsx}\""
+      "eslint"
     ],
     "*.{js,css,md}": "prettier --write"
   },
