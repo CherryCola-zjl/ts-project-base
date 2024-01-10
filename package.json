@@ -8,22 +8,12 @@
     "build": "npm run lint && rimraf dist types && cross-env NODE_ENV=production webpack --config ./scripts/webpack.prod.js",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "lint": "eslint \"src/**/*.{ts,js,tsx}\""
+    "lint": "eslint \"src/**/*.{ts,js,tsx}\"",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{ts,js}": [
-      "eslint"
-    ],
-    "*.{js,css,md}": "prettier --write"
-  },
   "devDependencies": {
     "@babel/core": "^7.23.7",
     "@babel/plugin-transform-runtime": "^7.23.7",
