@@ -7,6 +7,8 @@ export default defineUserConfig({
   title: packageJson.name,
   description: packageJson.description,
 
+  base:'/ts-project-base/',
+
   // 主题和它的配置
   theme: defaultTheme({
     navbar:[

@@ -2,4 +2,5 @@
  
 - 更新文档api文档
 - GET
-
+- Post
+- Del
