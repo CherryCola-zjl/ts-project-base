@@ -3,12 +3,16 @@ interface ConfigOptions {
   url: string;
 }
 class libraryStarter {
+  id: number;
+
   constructor(options: ConfigOptions) {
+    this.id = 11;
     console.log('constructor-id-url', options.id, options.url, 123123);
+  }
+
+  say() {
+    console.log(this.id);
   }
 }
 
-let a=1
-let b= 2
-let c=3;
 export default libraryStarter;
