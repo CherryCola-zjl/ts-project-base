@@ -1,7 +1,7 @@
 name: githubPages
 
 on:
-  pull_request:
+  push:
     paths:
       - 'docs/**/*.md'
 
